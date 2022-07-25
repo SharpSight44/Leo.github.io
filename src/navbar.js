@@ -50,6 +50,7 @@ export default function Navbar(){
 
     return (
         <>
+        <div id='back'>
         <div id='bar'>
             <div className='picHouse'><NavPics/></div>
             <div></div>
@@ -59,6 +60,7 @@ export default function Navbar(){
             <div></div>
 
         
+        </div>
         </div>
         </>
     );

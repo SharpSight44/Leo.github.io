@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './about';
+import Footer from './footer';
 import Home from './home';
-import Navbar from './navbar';
+
 
  export default function Layout() {   
 
@@ -10,7 +11,6 @@ import Navbar from './navbar';
  <>
  <BrowserRouter>
  
- <Navbar/>
  <Routes>
 
     <Route path="/" element={<Home/>}/>
@@ -18,6 +18,7 @@ import Navbar from './navbar';
 
 
  </Routes>
+ <Footer/>
  </BrowserRouter>
 
 
