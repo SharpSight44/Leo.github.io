@@ -5,7 +5,7 @@ export default function About() {
 
     return(
         <>
-        <h1>About Page Baby </h1>
+        <h1>About Page Baby YES </h1>
         </>
     );
 }
