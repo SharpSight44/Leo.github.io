@@ -54,7 +54,16 @@ export default function Navbar(){
         setTimeout(()=> setLoad2(true), 2000);
         setTimeout(()=> setLoad3(true), 3000);
         setTimeout(()=> setLoad4(true), 4000);
+        setInterval(()=>{
 
+            return (setLoad1(false), setLoad2(false),setLoad3(false),setLoad4(false)) },10000);
+        setInterval(()=>{
+        setTimeout(()=> setLoad1(true), 1000);
+        setTimeout(()=> setLoad2(true), 2000);
+        setTimeout(()=> setLoad3(true), 3000);
+        setTimeout(()=> setLoad4(true), 4000);
+        }, 10000
+    );
 
     },[]);
     
